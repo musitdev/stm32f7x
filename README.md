@@ -1,2 +1,3 @@
 # stm32f7x
-stm32f7x description build from svd file
+
+Peripheral Access API built with [svd2rust](https://github.com/japaric/svd2rust) and the project STM32F7x.svd file.
