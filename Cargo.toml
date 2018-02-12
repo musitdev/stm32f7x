@@ -1,6 +1,11 @@
 [package]
 authors = ["musitdev <philippe.delrieu@free.fr>"]
+categories = ["embedded", "hardware-support", "no-std"]
+description = "Peripheral access API for STM32F7XX microcontrollers"
+keywords = ["arm", "cortex-m", "stm32", "hal"]
+license = "MIT OR Apache-2.0"
 name = "stm32f7x"
+repository = "https://github.com/musitdev/stm32f7x"
 version = "0.2.0"
 
 [dependencies]
