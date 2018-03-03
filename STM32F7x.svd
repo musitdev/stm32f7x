@@ -9928,13 +9928,13 @@ xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>UART2RST</name>
+              <name>USART2RST</name>
               <description>USART 2 reset</description>
               <bitOffset>17</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
             <field>
-              <name>UART3RST</name>
+              <name>USART3RST</name>
               <description>USART 3 reset</description>
               <bitOffset>18</bitOffset>
               <bitWidth>1</bitWidth>
@@ -33186,7 +33186,7 @@ xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
             <field>
               <name>SMS_3</name>
               <description>Slave model selection -
-              bit[3]</description>
+              bit</description>
               <bitOffset>16</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
@@ -33229,7 +33229,7 @@ xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
             <field>
               <name>SMS</name>
               <description>Slave mode selection -
-              bit[2:0]</description>
+              bit</description>
               <bitOffset>0</bitOffset>
               <bitWidth>3</bitWidth>
             </field>
@@ -34431,7 +34431,7 @@ xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
             <field>
               <name>SMS_3</name>
               <description>Slave model selection -
-              bit[3]</description>
+              bit</description>
               <bitOffset>16</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
@@ -35408,7 +35408,7 @@ xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
             <field>
               <name>SMS_3</name>
               <description>Slave model selection -
-              bit[3]</description>
+              bit</description>
               <bitOffset>16</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
@@ -36373,7 +36373,7 @@ xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
             <field>
               <name>SMS_3</name>
               <description>Slave model selection -
-              bit[3]</description>
+              bit</description>
               <bitOffset>16</bitOffset>
               <bitWidth>1</bitWidth>
             </field>
@@ -55218,12 +55218,12 @@ xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
       </interrupt>
       <interrupt>
         <name>EXTI9_5</name>
-        <description>EXTI Line[9:5] interrupts</description>
+        <description>EXTI Line interrupts</description>
         <value>23</value>
       </interrupt>
       <interrupt>
         <name>EXTI15_10</name>
-        <description>EXTI Line[15:10] interrupts</description>
+        <description>EXTI Line interrupts</description>
         <value>40</value>
       </interrupt>
       <registers>
@@ -60092,12 +60092,12 @@ xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_1.xsd">
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>Bus_Wide_4b</name>
-                  <description>4-wide bus mode: SDMMC_D[3:0] used.</description>
+                  <description>4-wide bus mode: SDMMC_D used.</description>
                   <value>1</value>
                 </enumeratedValue>
                 <enumeratedValue>
                   <name>Bus_Wide_8b</name>
-                  <description>8-wide bus mode: SDMMC_D[7:0] used.</description>
+                  <description>8-wide bus mode: SDMMC_D used.</description>
                   <value>2</value>
                 </enumeratedValue>
               </enumeratedValues>
